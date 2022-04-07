@@ -12,6 +12,7 @@
       display: grid;
       /*definimos layout*/
       grid-template-areas: "header header header header"
+                           "main main main main"
                            "section1 section1 section1 section1"
                            "section2 section2 section2 section2"
                            "section3 section3 section3 section3"
@@ -25,13 +26,13 @@
       top: 0;
       z-index: 1;
    }      
-   .imgIndex{
+   .section1{
       grid-area:section1;
    }
-   .mainIndex{
+   .section2{
       grid-area:section2;
    }
-   .editWs{
+   .section3{
       grid-area:section3;
    }
    footer{
